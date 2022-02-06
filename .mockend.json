@@ -1,6 +1,6 @@
 {
   "Post": {
-    "title": { "string": {} },
+    "name": { "string": {Студия, Лофт, Хрущевка} },
     "comments": {
       "hasMany": "Comment"
     }
