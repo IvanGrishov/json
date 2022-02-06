@@ -1,6 +1,7 @@
 {
   "Post": {
     "name": { "string": {} },
+    "housingComplexName": "ЖК «ZNAK»",
     "comments": {
       "hasMany": "Comment"
     }
