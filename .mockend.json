@@ -1,9 +1,86 @@
 {
   "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
+    {
+    "id": "0c48bf56-8770-11ec-a8a3-0242ac120002",
+    "name": "Студия",
+    "housingComplexName": "ЖК «ZNAK»",
+    "planLink": "string",
+    "photos": [],
+    "sameLayoutFlatCount": "2",
+    "minPrice": "2400000"
+  },
+  {
+    "id": "0c48c23a-8770-11ec-a8a3-0242ac120002",
+    "name": "Лофт",
+    "housingComplexName": "ЖК «Васильки»",
+    "planLink": "string",
+    "photos": [],
+    "sameLayoutFlatCount": "4",
+    "minPrice": "3400000"
+  },
+  {
+    "id": "0c48c53c-8770-11ec-a8a3-0242ac120002",
+    "name": "Хрущевка",
+    "housingComplexName": "ЖК «ZNAK»",
+    "planLink": "string",
+    "photos": [],
+    "sameLayoutFlatCount": "7",
+    "minPrice": "4400000"
+  },
+  {
+    "id": "0c48c65e-8770-11ec-a8a3-0242ac120002",
+    "name": "Апартаменты",
+    "housingComplexName": "Железно на Калинина",
+    "planLink": "string",
+    "photos": [],
+    "sameLayoutFlatCount": "9",
+    "minPrice": "5100000"
+  },
+  {
+    "id": "0c48c76c-8770-11ec-a8a3-0242ac120002",
+    "name": "Таунхаус",
+    "housingComplexName": "ЖК «ZNAK»",
+    "planLink": "string",
+    "photos": [],
+    "sameLayoutFlatCount": "6",
+    "minPrice": "3300000"
+  },
+  {
+    "id": "0c48c866-8770-11ec-a8a3-0242ac120002",
+    "name": "Пентхаус",
+    "housingComplexName": "ЖК «Метроград»",
+    "planLink": "string",
+    "photos": [],
+    "sameLayoutFlatCount": "1",
+    "minPrice": "2900000"
+  },
+  {
+    "id": "0c48c974-8770-11ec-a8a3-0242ac120002",
+    "name": "Студия",
+    "housingComplexName": "ЖК «ZNAK»",
+    "planLink": "string",
+    "photos": [],
+    "sameLayoutFlatCount": "9",
+    "minPrice": "4800000"
+  },
+  {
+    "id": "0c48cb86-8770-11ec-a8a3-0242ac120002",
+    "name": "Лофт",
+    "housingComplexName": "ЖК «Метроград»",
+    "planLink": "string",
+    "photos": [],
+    "sameLayoutFlatCount": "8",
+    "minPrice": "2700000"
+  },
+  {
+    "id": "0c48cd2a-8770-11ec-a8a3-0242ac120002",
+    "name": "Студия",
+    "housingComplexName": "Железно на Калинина",
+    "planLink": "string",
+    "photos": [],
+    "sameLayoutFlatCount": "4",
+    "minPrice": "4300000"
+  }
   },
   "Comment": {
     "body": { "string": {} },
