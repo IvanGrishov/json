@@ -1,15 +1,113 @@
 {
-  "Post": {
-    "name": { "string": {} },
-    "housingComplexName": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+  "apartments": [
+    {
+      "id": "1",
+      "name": "Студия, 27 м2",
+      "housingComplexName": "ЖК «ZNAK»",
+      "housingComplexNameFilter": "ZNAK",
+      "planLink": "1.jpg",
+      "photos": [],
+      "sameLayoutFlatCount": "2",
+      "price": "2400000",
+      "numberOfRooms": "C",
+      "peculiarities": "2 и более санузла"
+    },
+    {
+      "id": "2",
+      "name": "Лофт, 100 м2",
+      "housingComplexName": "ЖК «Васильки»",
+      "housingComplexNameFilter": "Васильки",
+      "planLink": "2.jpg",
+      "photos": [],
+      "sameLayoutFlatCount": "4",
+      "price": "3400000",
+      "numberOfRooms": "1",
+      "peculiarities": "2 и более санузла"
+    },
+    {
+      "id": "3",
+      "name": "Хрущевка, 51 м2",
+      "housingComplexName": "ЖК «ZNAK»",
+      "housingComplexNameFilter": "ZNAK",
+      "planLink": "3.jpg",
+      "photos": [],
+      "sameLayoutFlatCount": "7",
+      "price": "4400000",
+      "numberOfRooms": "2",
+      "peculiarities": "Большая лоджия"
+    },
+    {
+      "id": "4",
+      "name": "Апартаменты, 200 м2",
+      "housingComplexName": "Железно на Калинина",
+      "housingComplexNameFilter": "На Калинина",
+      "planLink": "4.jpg",
+      "photos": [],
+      "sameLayoutFlatCount": "9",
+      "price": "5100000",
+      "numberOfRooms": "3",
+      "peculiarities": "Большая лоджия"
+    },
+    {
+      "id": "5",
+      "name": "Таунхаус, 300 м2",
+      "housingComplexName": "ЖК «ZNAK»",
+      "housingComplexNameFilter": "ZNAK",
+      "planLink": "5.jpg",
+      "photos": [],
+      "sameLayoutFlatCount": "6",
+      "price": "3300000",
+      "numberOfRooms": "4...",
+      "peculiarities": "Гардеробная"
+    },
+    {
+      "id": "6",
+      "name": "Пентхаус, 144 м2",
+      "housingComplexName": "ЖК «ZNAK»",
+      "housingComplexNameFilter": "ZNAK",
+      "planLink": "6.jpg",
+      "photos": [],
+      "sameLayoutFlatCount": "1",
+      "price": "2900000",
+      "numberOfRooms": "1+",
+      "peculiarities": "Кухня-гостиная"
+    },
+    {
+      "id": "7",
+      "name": "Студия, 22 м2",
+      "housingComplexName": "ЖК «ZNAK»",
+      "housingComplexNameFilter": "ZNAK",
+      "planLink": "7.jpg",
+      "photos": [],
+      "sameLayoutFlatCount": "9",
+      "price": "4800000",
+      "numberOfRooms": "C",
+      "peculiarities": "Кухня-гостиная"
+    },
+    {
+      "id": "8",
+      "name": "Лофт, 250 м2",
+      "housingComplexName": "На Ломоносова",
+      "housingComplexNameFilter": "На Ломоносова",
+      "planLink": "8.jpg",
+      "photos": [],
+      "sameLayoutFlatCount": "8",
+      "price": "2700000",
+      "numberOfRooms": "3",
+      "peculiarities": "Лоджия"
+    },
+    {
+      "id": "9",
+      "name": "Студия, 100 м2",
+      "housingComplexName": "На Ломоносова",
+      "housingComplexNameFilter": "На Ломоносова",
+      "planLink": "9.jpg",
+      "photos": [],
+      "sameLayoutFlatCount": "4",
+      "price": "4300000",
+      "numberOfRooms": "C",
+      "peculiarities": "Лоджия"
     }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
+  ]
 }
+
